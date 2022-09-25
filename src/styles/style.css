@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #F3FCFD;
+}
+
+.bg-color{
+  background-color: #F3FCFD;
+}
+
+main {
+  width: 90%;
+  margin: 32px auto;
+}
+
+club-list {
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+  display: block;
+}
+
+#landing{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.text-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#landing h1{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#landing p{
+  font-size: 22px;
+}
+
+#landing .button-hero{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  background-color: #24616d;
+  border: 0.01px solid #24616d;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s;     
+  color: #F3FCFD;   
+}
+
+#landing .button-hero:hover{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  background-color: #F3FCFD;
+  border: 0.01px solid #24616d;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s;
+  color: #24616d;
+}
+
+#landing .button-hero a{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#landing .button-hero a:hover{
+  text-decoration: none;
+  font-size: 16px;
+}
+
+
+#landing img{
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+footer{
+  color: #100e10;
+  text-align: center;
+  padding: 20px;
+  border-top: 0.5px solid #ABB6B9;
+  font-size: 18px;
+}
